@@ -4,3 +4,4 @@ RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt -y update
 RUN apt -y install python3 python3-pip
 RUN pip install --no-cache-dir --only-binary :all: --break-system-packages "fastapi[standard]"
 COPY src /app
+CMD [ "fastapi", "run", "/app/main.py" ]
