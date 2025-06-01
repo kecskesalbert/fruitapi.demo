@@ -31,7 +31,6 @@ Unsuccessful invocations return a corresponding HTTP response code and message, 
 
 Dependencies
 pip install "fastapi[standard]"
-q
 
 Start the API service
 
