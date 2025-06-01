@@ -1,0 +1,8 @@
+*.html
+*.png
+*.bak
+.terraform*
+terraform.tfstate*
+builds
+__pycache__
+.pytest_cache
