@@ -13,9 +13,11 @@ env:
 jobs:
   push:
     runs-on: ubuntu-latest
+
     permissions:
       packages: write
       contents: read
+      attestations: write
 
     steps:
       - name: Checkout repository
